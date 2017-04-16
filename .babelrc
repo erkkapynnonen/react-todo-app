@@ -1,0 +1,14 @@
+{
+    "presets":[
+        "babili", "es2015", "react"
+    ],
+    "comments": false,
+    "env": {
+      "production": {
+        "presets": ["babili", "react"]
+      },
+      "test": {
+        "presets": ["es2015", "react"]
+      }
+    }
+}
