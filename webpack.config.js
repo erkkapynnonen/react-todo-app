@@ -45,12 +45,12 @@ module.exports = {
       hash: true
     }),
     new ExtractTextPlugin('style.css'),
-    new BabiliPlugin(),
-    new LicenseWebpackPlugin({
+    /*new BabiliPlugin(),*/
+    /*new LicenseWebpackPlugin({
       pattern: /^(MIT|ISC|BSD.*)$/,
       unacceptablePattern: /GPL/,
       abortOnUnacceptableLicense: true
-    }),
+    }),*/
     new DotEnv({
       path: './.env', // if not simply .env
       safe: true // lets load the .env.example file as well
