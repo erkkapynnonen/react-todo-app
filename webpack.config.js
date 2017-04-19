@@ -7,10 +7,10 @@ const LicenseWebpackPlugin = require('license-webpack-plugin')
 const DotEnv = require('dotenv-webpack')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/app.js',
   output: {
     path: path.resolve('dist'),
-    filename: 'scripts.min.js'
+    filename: 'bundle.js'
   },
   module: {
     rules: [
